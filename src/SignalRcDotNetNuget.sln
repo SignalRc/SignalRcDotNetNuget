@@ -7,6 +7,21 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRcTests", "SignalRcTests\SignalRcTests.csproj", "{8B17D2FA-C609-465C-BE11-E0D3A356B1A0}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{958A9B7E-70F4-4650-8FC9-21883035FBDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958A9B7E-70F4-4650-8FC9-21883035FBDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958A9B7E-70F4-4650-8FC9-21883035FBDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958A9B7E-70F4-4650-8FC9-21883035FBDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B17D2FA-C609-465C-BE11-E0D3A356B1A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B17D2FA-C609-465C-BE11-E0D3A356B1A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B17D2FA-C609-465C-BE11-E0D3A356B1A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B17D2FA-C609-465C-BE11-E0D3A356B1A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

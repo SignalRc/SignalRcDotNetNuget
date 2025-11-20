@@ -5,7 +5,7 @@ namespace SignalRc.Models;
 /// <summary>
 /// Represents a single car and its state.
 /// </summary>
-public class CarStateModel
+public class VehicleStateModel
 {
     [JsonPropertyName("name")]
     public string? Name { get; set; }
