@@ -4,12 +4,19 @@
         <TargetFramework>net8.0</TargetFramework>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>SignalRc</PackageId>
-        <Version>1.0.0-beta</Version>
+        <Version>1.0.1-beta</Version>
         <Authors>Daniel Berg</Authors>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <Description>Library for using SignalRC protocol</Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+        <!-- Show README.md on NuGet.org -->
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
+    <ItemGroup>
+        <!-- Include README.md in the package root -->
+        <None Include="README.md" Pack="true" PackagePath="" />
+    </ItemGroup>
 </Project>
